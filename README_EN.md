@@ -6,7 +6,7 @@ A multi-view fake news detection model based on dual-branch text-image encoders 
 
 ## Overview
 
-This repository contains the official code of the paper "Multi-View Fake News Detection". The model adopts a dual-branch text-image architecture, leveraging CLIP / Chinese-CLIP / BERT-family pretrained encoders, and performs cross-view fusion and alignment through Mixture-of-Heads gating (MoH), local/global Mixture-of-Experts (UMoE / IMOE + MoEGlobal), cross-modal attention (BiMGRIA / multi-scale attention), and contrastive losses.
+This repository contains the official code of the paper "Dynamic Mixture-of-Head Attention via Feature Alignment and Conflict for Fake News Detection". The model adopts a dual-branch text-image architecture, and performs cross-view fusion and alignment through Mixture-of-Heads gating (MoH), local/global Mixture-of-Experts (UMoE / IMOE + MoEGlobal), cross-modal attention, and contrastive losses.
 
 | Dataset | Language | Command |
 | --- | --- | --- |
