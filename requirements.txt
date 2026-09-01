@@ -1,0 +1,28 @@
+# ===== 核心深度学习框架 =====
+torch>=1.13
+torchvision>=0.14
+
+# ===== HuggingFace Transformers =====
+transformers>=4.30
+
+# ===== 多模态 CLIP =====
+# OpenAI CLIP(需源码安装):pip install git+https://github.com/openai/CLIP.git
+# Chinese-CLIP:模型加载自 chinese-clip-vit-large-patch14/,需安装 cn-clip
+cn-clip>=1.5
+
+# ===== 数据处理 =====
+numpy
+pandas
+Pillow
+opencv-python
+jieba
+nltk
+editdistance
+
+# ===== 训练与评估 =====
+tqdm
+scikit-learn
+matplotlib
+
+# ===== 仅 legacy/ocr 旧实验需要(可选) =====
+# easyocr
