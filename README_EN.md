@@ -1,4 +1,4 @@
-# Multi-View Fake News Detection
+# Dynamic Mixture-of-Head Attention via Feature Alignment and Conflict for Fake News Detection
 
 > [中文](README.md)
 
